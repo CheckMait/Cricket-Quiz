@@ -1,0 +1,147 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2017/02/23/21/41/wall-2093277__340.jpg");
+    background-repeat: no-repeat;
+    background-size:5000px 8000px;
+
+ }
+ #abc{
+     text-align: center;
+ }
+#Seasons,#Episodes,#Characters,#FanBase{
+font-family: cursive;   
+    color:orangered;
+    height:5em;
+    width:37em;
+    background-color:yellow;
+    cursor:pointer;
+     
+}
+
+#bkchodi{
+    color:rgb(0, 255, 149);
+}
+#introo{
+    color:paleturquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px 1px grey;
+}
+#FirstSubmit{
+    text-decoration-color: white;
+    color:white;
+    background-color: red;
+    
+}
+#abc{
+    block-size: 50%;
+ 
+     }
+     #aler{
+text-align: center;
+}
+ 
+.lie{
+    color:yellow;
+}
+.mainimg{
+    height:800px;
+    width:1500px;
+}
+.heading{
+    color:red;
+    text-align:center ;
+}
+.begin{
+    text-align:center;
+    color:yellow;
+    background-color:blue;
+}
+.rules1{
+    text-shadow:2px 3px 4px grey;
+    color:black;
+}
+.Starting{
+    color:gold;
+    font-family:cursive;
+    text-align:center ;
+    background-image:url("http://files.all-free-download.com//downloadfiles/wallpapers/2560_1600/beautiful_nature_9303.jpg");
+    padding:6px;
+    border-width:10px;
+}
+#question{
+    font-family: Florence, cursive;
+    color: gold
+
+}
+#img1,#img2,#img3,#img4{
+    height:400px;
+    width:400px;
+}
+#div{
+    text-align:center;
+}
+#Options{
+    color:red;
+    font-family:Arial;
+}
+.ad{
+    
+    text-align:center;
+    animation-name:Anim1;
+    animation-duration:4s; 
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: Anim1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes Anim1{
+    0% {background-color:rgb(0, 128, 128);}
+    20% {background-color: yellow;}
+    60% {background-color: pink;}
+    80% {background-color:orange;}
+    100% {background-color:lightgrey}
+}
+    @-webkit-keyframes Anim1{
+        0% {background-color:rgb(0, 128, 128);}
+        20% {background-color: yellow;}
+        60% {background-color: pink;}
+        80% {background-color:orange;}
+        100% {background-color:lightgrey}
+    }
+    a:hover{
+        color:red;
+    }
+    #abc,#Emma,#roommate,#Muriel,#ralph{
+        width:15em;
+        height:3em;
+    }
+    #aler{
+        width:10em;
+        height:2em;
+        background-color:skyblue;
+        color:white;
+    }
+
+    #fanlevel{
+        text-align: center;
+        color:blue;
+    }
+    #fool{
+        color:whitesmoke;
+        background-color: firebrick;
+        font-family: "Times New Roman", Times, serif;
+        width:10em;
+        height:2em;
+        text-align: center;
+    }
+    #lastt{
+  color:orange;
+    }
+  
+
+    
+
+
+
+
