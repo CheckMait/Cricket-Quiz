@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizoMania</title>        
+        <link href="cricket.css" rel="stylesheet"/>
+        <script src="apppp.js"></script>
+    </head>
+    <body>
+    
+    <h1 class="Starting">Cricket Quiz</h1>
+  
+    <h1 id="a1"align="right"></h1>
+    <img src="https://media.gettyimages.com/photos/cricket-batsman-hitting-ball-during-cricket-match-in-stadium-picture-id518022060?s=612x612"class="mainimg"alt="">
+    
+    
+    <a href="https://www.dream11.com/"/>
+<div class="ad">
+
+<h3>Dream 11</h3><br/>
+<h2>The best game at your fingertips now!</h2>
+</div>
+</a>
+<h2>Name:<input type="text"id="name"placeholder="Eg:mark"required/></h2>
+<form method="GET">   <h2 id="mainform">Age: <input type="number" placeholder="Eg:18"required/><br /></h2>
+       <h1> Your favorite cricketer:</h1><br/>
+        
+       <input type="text"/>
+           <button id="FirstSubmit"onclick="show() ; return false"><h4>Submit</h4></button>
+        <form/>
+        <hr class="lie">
+        <h3 id="bkchodi"></h3>
+       <h2 class="rules1">The rules for the Quiz are:</h2>
+       <h3 id="introo">1.8 Questions would be displayed on your screen.</h3>
+       <h3 id="introo">2.For every correct answer,you will get 4 points and 1 point would be deducted for every wrong one.</h3>
+       <h3 id="introo">3.After every submission of answer,a black indicator would glow green if correct,and red if incorrect.</h3>
+       <h3 id="introo">Remember you have to press the Submit button in order to submit,nothing else would submit the answer.</h3>
+       <h3 id="introo">In the end,we would be telling you your score and your level of being a Friends Fan.</h3>
+       <h2 class="begin">So lets begin !</h2>
+        
+        <h3 id="question">For many days a test match is scheduled?</h3>
+        <input type="number" name="character" id="abc" align="center"/>
+        
+        <button onclick="letusplay() ; return false"id="aler">Submit</button>
+        <svg id="ci" height="100" width="100">
+          <circle id="cir1" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+        </svg>
+          
+        <div id="creative2">
+        
+        <h3 id="question">What is the name given to the biennial international Test cricket series played between England and Australia?</h3>       
+        <h4 id="Options"> <input type="radio"name="nam"value="Incorrect"id="r1" />The Transman  Trophy</h4>
+        <h4 id="Options"><input type="radio" name="nam"value="Incorrect"id="r2"/>The Sheffield Shield </h4>
+        <h4 id="Options"> <input type="radio"name="nam"value="Correct"id="r3"/>The Ashes</h4>
+           
+           <h4 id="Options"> <input type="radio"name="nam"value="Incorrect"id="r4"/>Big Bash</h4>
+           <button onclick="frends(); return false"id="aler">Submit</button>
+           
+           <svg id="ci" height="100" width="100">
+            <circle id="cir2" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+          </svg>
+            
+           </div>
+           
+        
+        <h3 id="question">In which year were the first laws of cricket believed to have been written?</h3>
+       <h4 id="Options"><input type="radio" id="z1"name="avc"value="Incorrect"/>1754</h4>
+       <h4 id="Options"><input type="radio" id="z2"name="avc"value="Correct"/>1774</h4>
+       <h4 id="Options"> <input type="radio" id="z3"name="avc"value="Incorrect"/>1784</h4>
+       <button onclick="question3() ; return false"id="aler">Submit</button>
+       <svg id="ci" height="100" width="100">
+        <circle id="cir3" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+      </svg>
+    <h3 id="question">Who is the fastest Indian to cross 10,000 runs?</h3>
+    
+      <input type="text"name="answert"id="Emma"/>
+      <button onclick="question4() ; return false"id="aler">Submit</button>
+      <svg id="ci" height="100" width="100">
+        <circle id="cir4" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+      </svg>
+         
+        <h3 id="question">Which out of the following persons has scored two triple hundreds in test history ?</h3>
+      <input id="n1" name="traitor"type="radio" value="Incorrect"/> <img id="img1"src="https://www.cricket.com.au/-/media/News/2018/04/08MichaelClarke.ashx?h=1556&w=2400&la=en">
+       <input id="n2"name="traitor" type="radio" value="Correct"/><img id="img2"src="https://mum-indiacom.s3.ap-south-1.amazonaws.com/imageTopics/e87d49b1eafd5de59f825cb6e2082513.jpg">
+     <br/><input id="n3"name="traitor" type="radio" value="Incorrect"/>   <img id="img3"src="https://s3.scoopwhoop.com/anj/sw/45bc19b4-59ab-4a9c-b688-11221cf71db1.jpg">
+     <input id="n4"name="traitor" type="radio" value="Incorrect"/>   <img id="img4"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5TDaDO1l7Oi7IgpyAXhD6uvImkbfDGp9LqwIiYSwAUa-PLp0x"><br/>
+     <button onclick="question5() ; return false">Submit</button>
+     <svg id="ci" height="100" width="100">
+      <circle id="cir5" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+    </svg>
+      
+    
+             
+        <h3 id="question">Which cricketers have the record for the highest run patnership at the World Cup ?</h3>
+        <h4 id="Options"> <input id="f1"type="radio"name="cool" value="Correct"/> Saurav Ganguly and Rahul Dravid</h4>
+        <h4 id="Options">     <input id="f2" type="radio"name="cool" value="Incorrect"/>Sachin Tendulkar and Sehwag</h4>
+        <h4 id="Options">     <br/><input id="f3" type="radio"name="cool" value="Incorrect"/>Sehwag and Gautam Gambhir </h4>
+        <h4 id="Options">  <input id="f4" type="radio"name="cool" value="Incorrect"/>Rohit Sharma and Virat Kohli  </h4>
+      <button onclick="question7() ;  return false"id="aler">Submit</button>
+      <svg id="ci" height="100" width="100">
+        <circle id="cir7" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+      </svg>
+        
+        <h3 id="question">Who has scored the maximum runs in a test match?</h3>
+        <input type="text"id="Muriel"/><br/>
+        <input type="button" value="Submit" onclick="question8() ; return false"id="aler"/>
+        <svg id="ci" height="100" width="100">
+          <circle id="cir8" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+        </svg>
+        <h3 id="question">How many runs are awarded to the batting team if the ball strikes the wicket keeper's helmet?</h3>
+        <h4 id="Options">  <input id="u1"type="radio"name="co" value="Incorrect"/>4 runs</h4>
+        <h4 id="Options"> <input id="u2" type="radio"name="co" value="Correct"/>5 runs</h4>
+        <h4 id="Options">  <input id="u3" type="radio"name="co" value="Incorrect"/>6 runs</h4>
+        <h4 id="Options">   <input id="u4" type="radio"name="co" value="Incorrect"/>0 runs</h4>
+    <button onclick="question9() ; return false"id="aler">Submit</button>
+    <svg id="ci" height="100" width="100">
+      <circle id="cir9" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
+    </svg>
+      
+  
+      <h1>So,now your total score would be displayed:</h1>
+      <button onclick="finalfunction() ;return false"id="fool"/>Tell me my score</button>
+        <h1 id="score"></h1>
+        <br/>
+        <br/>
+        <br/>
+        <h1 id="fanlevel"></h1>
+        <br/>
+        <br/>
+        <h1 id="lastt"align="center">Thanks for visiting! Have a great day!</h1>        
+    </body>
+</html>
